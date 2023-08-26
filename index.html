@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon. Gastamenos, sonríe más.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <nav class="barra-de-navegacion">
+            <div class="contenedor-logo">
+                <a href="#"><img id="logo" src="IMAGES/logo amazon.png" alt="logo-amazon"></a>
+                <div class="enviar-a-venezuela">
+                <img id="icon-ubicacion" src="IMAGES/icono ubicacion.png" alt="">
+                <button class="btn-enviar">Enviar a
+                  <span id="venezuela">Venezuela</span></button>
+                </div>
+            </div>
+
+            <form class="buscador">
+                <select name="" id="opciones">
+                    <option id="todos" value="">Todos</option>
+                    <option value="">Todos los departamentos</option>
+                    <option value="">Arte y artesanía</option>
+                    <option value="">Automotriz</option>
+                    <option value="">Bebes</option>
+                    <option value="">Belleza y cuidado personal</option>
+                    <option value="">Cine y TV</option>
+                    <option value="">Computadoras</option>
+                    <option value="">Deportes y actividades al aire libre</option>
+                    <option value="">Electrónicos</option>
+                    <option value="">Equipaje</option>
+                    <option value="">Herramientas y mejoramiento del hogar</option>
+                    <option value="">Hogar y cocina</option>
+                    <option value="">Industrial y científico</option>
+                    <option value="">Insumos para mascotas</option>
+                    <option value="">Juguetes y juegos</option>
+                    <option value="">Libros</option>
+                    <option value="">Moda de niñas</option>
+                    <option value="">Moda de niños</option>
+                    <option value="">Moda para hombres</option>
+                    <option value="">Moda para mujer</option>
+                    <option value="">Música mp3</option>
+                    <option value="">Música, CD y vinilos</option>
+                    <option value="">Ofertas</option>
+                    <option value="">Prime video</option>
+                    <option value="">Salud y productos para el hogar</option>
+                    <option value="">Software</option>
+                    <option value="">Tienda kindle</option>
+                    <option value="">Videojuegos</option>
+                </select>
+                <input type="search" placeholder="  Buscar Amazon">
+                <button id="lupa"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+
+            <div class="carrito">
+                <button id="bandera"><img id="bandera-usa" src="IMAGES/estados-unidos.png" alt="">ES</button>
+                <button id="hola">Hola, Identifícate <span id="cuenta">Cuenta y Listas</span></button>
+                <button id="devoluciones">Devoluciones <span id="pedidos">y Pedidos</span></button>
+                <button id="carrito"><img id="iconocarrito" src="IMAGES/carro.png" alt="carrito">Carrito</button>
+            </div>
+
+        </nav>
+
+        <nav>
+          <div class="segundo-nav">
+            <button id="btn-hamburguesa" class="menuppal" href="#"><img id="hamburguesa-menu" src="IMAGES/menu.png" alt="">Todo</button>
+            <button class="menuppal" href="#">Ofertas del Día</button>
+            <button class="menuppal" href="#">Servicio al Cliente</button>
+            <button class="menuppal" href="#">Listas</button>
+            <button class="menuppal" href="#">Tarjetas de Regalo</button>
+            <button class="menuppal" href="#">Vender</button>
+          </div>
+        </nav>
+    
+        <main class="contenido-ppal">
+            <section class="articulos">
+                <div class="cuadros-articulos">
+                  <p class="titulos">Accesorios para juegos</p>
+                    <section class="grilla-articulos">
+                        <div class="imagenespequeñas-grid"><img src="IMAGES/accesorios/audifonos.jpg" alt="">
+                        <p class="descripciones-grid">Auriculares</p></div>
+                        <div class="imagenespequeñas-grid"><img src="IMAGES/accesorios/teclado.jpg" alt="">
+                          <p class="descripciones-grid">Teclados</p></div>
+                        <div class="imagenespequeñas-grid"><img src="IMAGES/accesorios/raton.jpg" alt="">
+                          <p class="descripciones-grid">Ratones de computadora</p></div>
+                        <div class="imagenespequeñas-grid"><img src="IMAGES/accesorios/silla.jpg" alt="">
+                          <p class="descripciones-grid">Sillas</p></div>
+                          
+                      </section>
+                      <br>
+                      <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Juguetes por menos de USD 30</p>
+                    <img class="imagenes-principales" src="IMAGES/juguetes.jpg" alt="">
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Hogar y Cocina por menos de USD 30</p>
+                    <img class="imagenes-principales" src="IMAGES/hogar y cocina.jpg" alt="">
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Comprar útiles escolares esenciales</p>
+                    <img class="imagenes-principales" src="IMAGES/comprar utiles.jpg" alt="">
+                    <p class="anclas"><a href="#">Más información</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Renueva tu espacio</p>
+                  <section class="grilla-articulos">
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/renueva tu espacio/comedor_.jpg" alt="">
+                    <p class="descripciones-grid">Comedor</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/renueva tu espacio/inicio_.jpg" alt="">
+                      <p class="descripciones-grid">Inicio</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/renueva tu espacio/cocina.jpg" alt="">
+                      <p class="descripciones-grid">Cocina</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/renueva tu espacio/salud y belleza.jpg" alt="">
+                      <p class="descripciones-grid">Salud y Belleza</p></div>
+                      
+                  </section>
+                  <br>
+                  <br>
+                  <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Vestidos</p>
+                    <img class="imagenes-principales" src="IMAGES/vestidos.jpg" alt="">
+                    <br>
+                    <br>
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Mejoras fáciles para espacios elevados</p>
+                  <section class="grilla-articulos">
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/mejoras faciles/cestas y canastos.jpg" alt="">
+                    <p class="descripciones-grid">Cestas y canastos</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/mejoras faciles/herramientas.jpg" alt="">
+                      <p class="descripciones-grid">Herramientas</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/mejoras faciles/muebles decorativos_.jpg" alt="">
+                      <p class="descripciones-grid">Muebles decorativos</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/mejoras faciles/tapizado y pintura.jpg" alt="">
+                      <p class="descripciones-grid">Tapizado y pintura</p></div>
+                      
+                  </section>
+                  <br>
+                  <p class="anclas"><a href="#">Comprar productos para el hogar</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Salud y Cuidado Personal</p>
+                    <img class="imagenes-principales" src="IMAGES/salud.jpg" alt="">
+                    <br>
+                    <br>
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Comprar Artículos para Mascotas</p>
+                    <img class="imagenes-principales" src="IMAGES/mascotas.jpg" alt="">
+                    <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Descubre las tendencias en moda</p>
+                    <img class="imagenes-principales" src="IMAGES/moda.jpg" alt="">
+                    <p class="anclas"><a href="#">Más información</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Ideas para renovar tu hogar</p>
+                    <img class="imagenes-principales" src="IMAGES/renovar hogar.jpg" alt="">
+                    <br>
+                    <br>
+                    <p class="anclas"><a href="#">Compra mejoras para la cocina</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Hogar y Cocina</p>
+                    <img class="imagenes-principales" src="IMAGES/hogar y cocina 2.jpg" alt="">
+                    <br><br>
+                    <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Mercancía de juegos
+                    <section class="grilla-articulos">
+                      <div class="imagenespequeñas-grid"><img src="IMAGES/mercancia de juegos/vestimenta_.jpg" alt="">
+                      <p class="descripciones-grid">Vestimenta</p></div>
+                      <div class="imagenespequeñas-grid"><img src="IMAGES/mercancia de juegos/sombreros.jpg" alt="">
+                        <p class="descripciones-grid">Sombreros</p></div>
+                      <div class="imagenespequeñas-grid"><img src="IMAGES/mercancia de juegos/figuras de ación.jpg" alt="">
+                        <p class="descripciones-grid">Figuras de acción</p></div>
+                      <div class="imagenespequeñas-grid"><img src="IMAGES/mercancia de juegos/tazas de desayuno.jpg" alt="">
+                        <p class="descripciones-grid">Tazas de desayuno</p></div>
+                        
+                    </section>
+                    <br><br>
+                    <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">De Vuelta a Clases</p>
+                  <section class="grilla-articulos">
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/de vuelta a clases/cuadernos.jpg" alt="">
+                    <p class="descripciones-grid">Cuadernos</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/de vuelta a clases/accesorios_.jpg" alt="">
+                      <p class="descripciones-grid">Accesorios</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/de vuelta a clases/almacenamiento de alimentos.jpg" alt="">
+                      <p class="descripciones-grid">Almacenamiento de alimentos</p></div>
+                    <div class="imagenespequeñas-grid"><img src="IMAGES/de vuelta a clases/lapices.jpg" alt="">
+                      <p class="descripciones-grid">Lápices</p></div>
+                      
+                  </section>
+                  
+                  <p class="anclas"><a href="#">Compra ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Ofertas en Herramientas y mejoras para el hogar</p>
+                    <img class="imagenes-principales" src="IMAGES/ofertas en herramientas.jpg" alt="">
+                    <p class="anclas"><a href="#">Compra ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Para tus necesidades de ejercicio</p>
+                    <img class="imagenes-principales" src="IMAGES/para tus necesidades de ejercicio.jpg" alt="">
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Novedades de primavera</p>
+                    <img class="imagenes-principales" src="IMAGES/novedades de primavera.jpg" alt="">
+                    <br><br>
+                    <p class="anclas"><a href="#">Descubre más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Comprar rastreadores de actividad y relojes...</p>
+                    <img class="imagenes-principales" src="IMAGES/comprar rastreadores.jpg" alt="">
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">Novedades en Juguetes</p>
+                    <img class="imagenes-principales" src="IMAGES/novedades en juguetes.jpg" alt="">
+                    <br><br>
+                    <p class="anclas"><a href="#">Ver más</a></p>
+                </div>
+                <div class="cuadros-articulos">
+                  <p class="titulos">E-readers Kindle</p>
+                    <img class="imagenes-principales" src="IMAGES/e-readers.jpg" alt="">
+                    <br><br>
+                    <p class="anclas"><a href="#">Comprar ahora</a></p>
+                </div>
+            </section>
+
+            <section id="mainabajo">
+                <div class="finalmain">
+                    <div>
+                     <p>Ver recomendaciones personalizadas</p>
+                    </div>
+                    <div>
+                     <button id="btn-identificate">Identifícate</button>
+                    </div>
+                    <p id="clientenuevo">¿Eres un cliente nuevo? <span id="empiezaaqui">Empieza aquí.</span></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+              <div>
+                <a href="#" class="botoninicio">
+                  <button class="botoninicio1">Inicio de Página</button>
+                </a>
+              </div>
+        
+              <section class="footer1">
+                <div class="listafooter">
+                  <h3 class="titulofooter">Conócenos</h3>
+                  <a href="" class="anclas">Trabaja en Amazon</a>
+                  <a href="" class="anclas">Blog</a>
+                  <a href="" class="anclas">Acerca de Amazon</a>
+                  <a href="" class="anclas">Relaciones con los Inversionistas</a>
+                  <a href="" class="anclas">Dispositivos Amazon</a>
+                  <a href="" class="anclas">Amazon Science</a>
+                </div>
+        
+                <div class="listafooter">
+                  <h3 class="titulofooter">Gana Dinero con Nosotros</h3>
+                  <a href="" class="anclas">Vender productos en Amazon</a>
+                  <a href="" class="anclas">Vende en Amazon Business</a>
+                  <a href="" class="anclas">Vender aplicaciones en Amazon</a>
+                  <a href="" class="anclas">Programa de Afiliados</a>
+                  <a href="" class="anclas">Anuncia tus Productos</a>
+                  <a href="" class="anclas">Publica tu Libro en Kindle</a>
+                  <a href="" class="anclas">Habilita un Amazon Hub</a>
+                  <a href="" class="anclas">> Ver más Gana Dinero con Nosotros</a>
+                </div>
+        
+                <div class="listafooter">
+                  <h3 class="titulofooter">Productos de Pago de Amazon</h3>
+                    <a href="" class="anclas">Compra con Puntos</a>
+                    <a href="" class="anclas">Recarga tu Saldo</a>
+                    <a href="" class="anclas">Conversor de divisas de Amazon</a>
+                </div>
+        
+                <div class="listafooter">
+                  <h3 class="titulofooter">Podemos Ayudarte</h3>
+                  <a href="" class="anclas">Amazon y el COVID-19</a>
+                  <a href="" class="anclas">Tu Cuenta</a>
+                  <a href="" class="anclas">Tus Pedidos</a>
+                  <a href="" class="anclas">Tarifas de Envío y Políticas</a>
+                  <a href="" class="anclas">Devoluciones y Reemplazos</a>
+                  <a href="" class="anclas">Administrar Contenido y Dispositivos</a>
+                  <a href="" class="anclas">Amazon Assistant</a>
+                  <a href="" class="anclas">Ayuda</a>
+        
+                </div>
+              </section>
+        
+              <hr>
+
+              <section class="footer2">
+
+                <div><img id="loguito" src="IMAGES/logo amazon.png" alt="">
+                </div>
+
+                <div class="ss">
+                  <select name="" id="opciones2">
+                  <option value="Español">Español - Es</option>
+                  <option value="English">English - En</option>
+                  <option value="Español">لعربية - AR</option>
+                  <option value="Español">Deutsch - DE</option>
+                  <option value="Español">עברית - HE</option>
+                  <option value="Español">한국어 - KO</option>
+                  <option value="Español">português - PT</option>
+                  <option value="Español">中文 (简体) - ZH</option>
+                  <option value="Español">中文 (繁體) - ZH</option>
+                </select>
+        
+                <button class="botondolar">$  USD - dólar estadounidense</button>
+
+                <button class="botonusa"><img id="banderitausa" src="IMAGES/estados-unidos.png" alt="">Estados Unidos</button>
+        
+              </div>
+              
+              </section>
+
+            <section class="footer3">
+                <div class="opcionesfooter3"> <p class="tituloopciones">Amazon Music</p> <br>
+                  Reproduce millones de canciones</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Amazon Advertising</p><br>
+                Encontrar, atraer y captar clientes</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">6pm</p><br>
+                Descubre ofertas en marcas de moda</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">AbeBooks</p><br>
+                Libros, arte & artículos de colección</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">ACX</p><br>
+                Editorial de Audiolibros<br>
+                Hecho Fácil</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Venda en Amazon</p><br>
+                Comience una cuenta de venta</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Amazon Business</p><br>
+                Todo para tu negocio</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">AmazonGlobal</p><br>
+                Pedidos de Envío Internacional</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Servicios para el Hogar</p><br>
+                de Amazón<br>
+                Profesionales<br>
+                Elegidos a Mano<br>
+                Garantía de Satisfacción</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Amazon Web Services</p><br>
+                  Servicios de cómputo en nube escalable</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Audible</p> <br>
+                  Escucha Libros e Interpretaciones de Audio Originales	</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Book Depository</p> <br>
+                  Libros con Entrega Intl Gratuita</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Box Office Mojo</p> <br>
+                  Encuentra películas <br>
+                  Datos de taquilla</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">ComiXology</p>	 <br>
+                  Miles de Comics Digitales</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">DPReview</p> <br>
+                  Fotografía Digital</div>
+      
+                <div class="opcionesfooter3">	<p class="tituloopciones">Fabric</p> <br>
+                  Costura, <br> Acolchado <br>y Tejido</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Goodreads</p> <br>
+                  Análisis de libros y recomendaciones	</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">IMDb</p> <br>
+                  Películas, TV y Celebridades</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">IMDbPro</p> <br>
+                  Obtén información de entretenimiento que los profesionales necesitan</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Kindle Direct Publishing</p> <br>
+                  Publica tu libro en papel y digital de manera independiente</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Prime Video Direct</p> <br>
+                  Distribución de Video <br>
+                  Sin Esfuerzo	</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Shopbop</p> <br>
+                  Diseñador <br>
+                  Marcas de Moda</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Woot</p>! <br>
+                  Descuentos y travesuras</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Zappos</p> <br>
+                  Zapatos y ropa</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Ring</p> <br>
+                  Casa Inteligente <br>
+                  Sistemas de Seguridad</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Wifi eero</p> <br>
+                  Video 4K en tiempo real en todas las habitaciones</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Blink</p> <br>
+                  Seguridad inteligente para todos los hogares</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Neighbors App</p> <br>
+                  Alertas de seguridad y delitos en tiempo real</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">Suscríbete con Amazon</p> <br>
+                  a los servicios de suscripción de "Discover & try"</div>
+      
+                <div class="opcionesfooter3"><p class="tituloopciones">PillPack</p> <br>
+                  Pharmacy simplificado</div>
+              </section>
+      
+              <section class="footer4">
+                <div><a class="ultimasanclas" href="">Condiciones de uso</a></div>
+                <div><a class="ultimasanclas" href="">Aviso de privacidad</a></div>
+                <div><a class="ultimasanclas" href="">Tus opciones de privacidad de los anuncios</a></div>
+                <div><img src="IMAGES/footer check.png" alt=""></div>
+                
+              </section>
+              <section class="amazoninc">
+                <p>© 1996-2023 Amazon.com, Inc. o sus afiliados</p>
+              </section>
+              
+            </section>
+          </div>
+        </section>
+
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/860e5d75a5.js" crossorigin="anonymous"></script>
+</body>
+</html>
